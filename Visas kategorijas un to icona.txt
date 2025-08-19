@@ -1,0 +1,21 @@
+Visas kategorijas
+Bankas / Apdrošināšana / Finanses/Grāmatvedība <i class="fa-solid fa-piggy-bank" style="color: #63E6BE;"></i>
+Būvniecība / Nekustamais īpašums <i class="fa-solid fa-house-chimney-user" style="color: #d65151;"></i>
+Cita <i class="fa-solid fa-ellipsis" style="color: #f5c000;"></i>
+Drošība / Glābšanas dienesti / Aizsardzība <i class="fa-solid fa-shield-halved" style="color: #74C0FC;"></i>
+Ēdināšana / Pārtikas rūpniecība <i class="fa-solid fa-money-bill-wheat" style="color: #63E6BE;"></i>
+Elektronika / Enerģētika / Elektroenerģija <i class="fa-solid fa-bolt" style="color: #FFD43B;"></i>
+Informācijas tehnoloģijas / Telekomunikācijas <i class="fa-solid fa-computer" style="color: #7283fd;"></i>
+Izglītība / Zinātne <i class="fa-solid fa-graduation-cap" style="color: #65e68c;"></i>
+Jurisprudence / Tieslietas <i class="fa-solid fa-scale-balanced" style="color: #ffb83d;"></i>
+Kultūra / Māksla <i class="fa-solid fa-masks-theater" style="color: #B197FC;"></i>
+Lauksaimniecība / Vide <i class="fa-solid fa-seedling" style="color: #6ee665;"></i>
+Mediji / Sabiedriskās attiecības <i class="fa-solid fa-satellite-dish" style="color: #fd7272;"></i>
+Pakalpojumi <i class="fa-solid fa-handshake-angle" style="color: #65e6dd;"></i>
+Ražošana <i class="fa-solid fa-industry" style="color: #fdb172;"></i>
+Tirdzniecība / Mārketings <i class="fa-solid fa-store" style="color: #e66565;"></i>
+Transports / Loģistika <i class="fa-solid fa-truck-fast" style="color: #72a7fd;"></i>
+Tūrisms / Viesnīcas <i class="fa-solid fa-suitcase-rolling" style="color: #65e690;"></i>
+Vadība / Administrēšana <i class="fa-solid fa-user-tie" style="color: #7277fd;"></i>
+Valsts pārvalde <i class="fa-solid fa-building-columns" style="color: #72e1fd;"></i>
+Veselības aprūpe / Sociālā aprūpe <i class="fa-solid fa-hand-holding-medical" style="color: #65e6aa;"></i>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/429bfcec62.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <div><i class="fa-solid fa-briefcase" style="color: #dddddd;"></i></div>
+        <div>        
+            <h1>Nika Vakances</h1>
+            <p>Visiem strādāt un страдать</p>
+        </div>
+    </nav>
+
+    <div id="vakances-search">
+        <div class="search-row">
+            <input type="text" id="search-input" placeholder="Meklēt vakances...">
+            <button id="search-button">Meklēt</button>
+        </div>
+        <div class="category-row">
+            <select name="kategorija" id="kategoriju-select"></select>
+            <select name="darba-vieta" id="darba-vieta-select" style="margin-left:10px;"></select>
+        </div>
+    </div>
+
+    <div class="sort-row">
+        <label for="sort-by">Kārtot pēc:</label>
+        <select id="sort-by">
+            <option value="none">-</option>
+            <option value="alphabetic">Alfabētiski</option>
+            <option value="alga">Alga no</option>
+            <option value="datums">Publicēšanas datums</option>
+        </select>
+        <select id="sort-order">
+            <option value="asc">Augošā</option>
+            <option value="desc">Dilstošā</option>
+        </select>
+        <button id="clear-filters">Notīrīt kritērijus</button>
+    </div>
+
+    <div id="vakances-container" class="vakances-grid">
+        <!-- Vakances will be dynamically inserted here -->
+        <div class="vakance-card">
+            <h2>Lādējas...</h2>
+            <p>Lūdzu uzgaidiet vakances drīz tiks uzrādītas.</p>
+        </div>
+    </div>
+    <div id="vakances-pagination">
+        <button id="prev-page">Iepriekšējā</button>
+        <span id="page-info">1 no x</span>
+        <button id="next-page">Nākamā</button>
+    <div>
+    <footer>
+        <p>© 2025 Nika Vakances. All rights reserved.</p>
+        <p>Darbs netiek garantēts.</p>
+    </footer>
+</body>
+</html>

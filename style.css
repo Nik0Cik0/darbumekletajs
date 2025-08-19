@@ -1,0 +1,192 @@
+nav{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+nav div{
+    text-align: center;
+}
+nav div i{
+    font-size: 3em;
+    margin-top: 1vh;
+    padding-right: 0.5vw;
+    display: block;
+}
+nav div h1{
+    font-size: 2em;
+    margin: 0;
+}
+nav div p{
+    font-size: 1.2em;
+    margin: 0;
+    color: #a2a2a2;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1d1d1;
+}
+header{
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+#vakances-container{
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+}
+.vakances-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.vakance-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  position: relative;
+  min-height: 220px; /* pēc vajadzības */
+}
+
+.vakance-ikona {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  font-size: 2em;
+  opacity: 0.85;
+  pointer-events: none;
+}
+#vakances-search {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.category-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+.city-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    gap: 10px;
+}
+#vakances-search input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#vakances-search button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#vakances-search button:hover {
+    background-color: #4cae4c;
+}
+#vakances-search button:focus {
+    outline: none;
+}
+#vakances-search input[type="text"]:focus {
+    border-color: #5cb85c;
+    box-shadow: 0 0 5px rgba(92, 184, 92, 0.5);
+}
+#vakances-search input[type="text"]::placeholder {
+    color: #999;
+}
+#vakances-search input[type="text"]:focus::placeholder {
+    color: #5cb85c;
+}
+#vakances-search input[type="text"] {
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+#vakances-search button {
+    transition: background-color 0.3s;
+}
+#kategoriju-select{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sort-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.sort-row label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.sort-row select, .sort-row button {
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    background: #f8f8f8;
+    font-size: 1em;
+    transition: border 0.2s;
+}
+
+.sort-row select:focus, .sort-row button:focus {
+    border: 1.5px solid #333;
+    outline: none;
+}
+
+#clear-filters {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#clear-filters:hover {
+    background: #c0392b;
+}
