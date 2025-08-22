@@ -12,14 +12,12 @@
 
 ## Izskats
 
-### Datora versija
-![Datora skats](bildes-githubam/dators.png)
+### Logo un moto
+![Logo un moto](bildes-githubam/logo.png)
 
-### Telefona versija
-![Telefona skats](bildes-githubam/telefons.png)
-
-### Vakances kartītes piemērs
-![Vakances kartīte](bildes-githubam/vakance.png)
+### Lietotāja POV
+![Telefona skats](bildes-githubam/bilde-1.png)
+![Vakances kartīte](bildes-githubam/bilde-2.png)
 
 ## Lietošana
 
