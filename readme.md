@@ -10,6 +10,17 @@
 - Lapu šķirošana (paginācija)
 - Responsīvs dizains (ērti lietojams arī uz telefona un planšetdatora)
 
+## Izskats
+
+### Datora versija
+![Datora skats](bildes-githubam/dators.png)
+
+### Telefona versija
+![Telefona skats](bildes-githubam/telefons.png)
+
+### Vakances kartītes piemērs
+![Vakances kartīte](bildes-githubam/vakance.png)
+
 ## Lietošana
 
 1. Klonē šo repozitoriju:
